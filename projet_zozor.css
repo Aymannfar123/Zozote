@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('ballpark-webfont.woff2') format('woff2'),
+         url('ballpark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('dayrom-webfont.woff2') format('woff2'),
+         url('dayrom-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'maximum_impactregular';
+    src: url('maximum_impact-webfont.woff2') format('woff2'),
+         url('maximum_impact-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color: #fcfcdc;
+	width: 990px;
+	height: 1269px;
+
+}
+header img	
+{
+	margin-top:15px;
+	margin-left: 50px;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'day_romanregular';
+	list-style-type: none;
+	text-decoration: none;
+}
+h3
+{
+	position: relative;
+	left: 105px;
+	top: -9px;
+	font-size: 40px;
+	font-family: 'ballparkweiner';
+}
+.Text_carnet
+{
+	font-size: 20px;
+	margin-left: 48px;
+	position: relative;
+	top: -35px;
+}
+.nav
+{
+	display: flex;
+	position: relative;
+	left: 910px;
+	bottom: 110px;
+	font-size: 1.4em;
+}
+a
+{
+	color: blue;
+}
+.nth-child1
+{
+	padding: 40px;
+	color: blue;
+}
+.nth-child1:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+}
+
+.nth-child2
+{
+	padding: 40px;
+}
+.nth-child2:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+}
+
+.nth-child3
+{
+	padding: 40px;
+}
+.nth-child3:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+}
+
+.nth-child4
+{
+	padding: 40px;
+	color: blue;
+}
+.nth-child4:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+}
+.separateur
+{
+	position: absolute;
+	top: 150px;
+	margin: 0;
+	width: 1700px;
+	height: 5px;
+}
+
+.san
+{
+	width: 1450px;
+	height: 400px;
+	position: relative;
+	bottom: 73px;
+	margin-left: 65px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.text_retour
+{
+	position: relative;
+	bottom: 165px;
+	left: 45px;
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 5px;
+	opacity: 65%;
+	margin: 20px;
+	width: 142.4%;
+}
+.ico_epingle
+{
+	position: relative;
+	left: 50px;
+	bottom: 100px;
+	width: 50px;
+}
+.lorem	
+{
+	position: relative;
+	bottom: 140px;
+	margin: 50px;
+	font-size: 20px;
+	text-align: justify;
+	width: 900px;
+}
+.titre_icone
+{	
+	position: absolute;
+	top: 690px;
+	left: 110px;
+	font-family: day_romanregular;
+	font-size: 28px;
+}
+.lorem2
+{
+	font-size: 20px;
+	margin: 50px;
+	position: relative;
+	bottom: 220px;
+	text-align: justify;
+	width: 900px;
+}
+.lorem3
+{
+	font-size: 20px;
+	margin: 50px;
+	position: relative;
+	bottom: 220px;
+	text-align: justify;
+	width: 900px;
+}
+.boutton 
+{
+	font-size: 20px;
+	color: white;
+	height: 35px;
+	width: 150px;
+	background-color: red;
+	border-radius: 5px;
+	position: relative;
+	left: 1350px;
+	bottom: 233px;
+}
+
+.fleche
+{
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+.Voirarticle
+{
+	position: relative;
+	top: 4px;
+	left: 3px;
+}
+.info_ane
+{
+	font-family: 'impact';
+	background-color: #706b64;
+	border-radius: 15px;
+	margin: 10px;
+	color: white;
+	padding: 20px;
+	width: 500px;
+	height: 700px;
+	position: absolute;
+	top: 690px;
+	right: -10px;
+	font-size: 15px;
+}
+.bulle
+{
+	position: relative;
+	right: 30px;
+	top: 330px;
+}
+.titre_info
+{
+	margin: 20px;
+	margin-left: 40px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+}
+.zozor_classe
+{
+	margin: 20px;
+	margin-left: 150px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+.text_info
+{
+	font-size: 25px;
+}
+.text_info2
+{
+	font-size: 25px;
+}
+.réseau
+{
+	display: flex;
+	justify-content: row;
+	padding: 110px;
+	position: relative;
+	bottom: 20px;
+	right: 100px;
+	margin-left: 15px;
+}
+.facebook
+{
+	padding: 5px;
+	width: 80px;
+}
+.twitter
+{
+	padding: 5px;
+	width: 80px;
+}
+.vimeo
+{
+	padding: 5px;
+	width: 80px;
+}
+.flickr
+{
+	padding: 5px;
+	width: 80px;
+}
+.rss
+{
+	padding: 5px;
+	width: 80px;
+}
